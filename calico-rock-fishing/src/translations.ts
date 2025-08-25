@@ -177,7 +177,7 @@ export const translations: Record<string, Translations> = {
     fishingReports: "Fishing Reports",
     
     // Hero Section
-    heroTitle: "UNIT 750",
+    heroTitle: "CABIN 750",
     heroSubtitle: "Calico Rock",
     heroDescription: "Experience world-class Calico Rock fishing on the legendary White River. Authentic Arkansas charm meets premier trout fishing with handcrafted accommodations and modern comfort.",
     bookOnAirbnb: "Book on Airbnb",
@@ -187,8 +187,8 @@ export const translations: Record<string, Translations> = {
     // About Section
     authenticArkansas: "Authentic Arkansas",
     handcraftedRusticLuxury: "Handcrafted Rustic Luxury",
-    aboutDescription: "Unit 750 showcases the finest in Arkansas craftsmanship with beautiful wood paneling, rustic charm, and thoughtful details throughout. Every corner tells a story of authentic mountain hospitality, while modern amenities ensure your comfort during your Calico Rock fishing adventure on the White River.",
-    insideUnit750: "Inside Unit 750",
+    aboutDescription: "Perched in the mountains of Calico Rock and nestled right on the White River, this waterfront retreat offers an unforgettable escape in the heart of the Ozarks. Step outside and experience one of America's premier \"Blue Ribbon\" trout fisheries, where crystal-clear waters, abundant wildlife, and breathtaking scenery set the stage for adventure and relaxation. \n\nInside, Cabin 750 showcases the best of Arkansas craftsmanship, with rich cedar wood paneling, rustic charm, and thoughtful details woven throughout. Every space reflects authentic mountain hospitality, while modern amenities ensure you enjoy the perfect balance of comfort and tradition. Whether you're here to fish, explore, or simply unwind by the river, Cabin 750 in Calico Rock is your gateway to the true White River experience.",
+    insideUnit750: "Inside Cabin 750",
     insideDescription: "Step inside and experience the perfect blend of rustic charm and modern comfort",
     woodCraftsmanship: "Wood Craftsmanship",
     woodCraftsmanshipDesc: "Handcrafted paneling throughout",
@@ -202,7 +202,7 @@ export const translations: Record<string, Translations> = {
     // River Views Section
     yourRiverView: "🌊 Your River View",
     stepOutsideToParadise: "Step Outside to Paradise",
-    riverViewDescription: "From the warmth of Unit 750's rustic interior, step outside to discover the pristine beauty of the White River - Arkansas's premier trout fishing destination. This perfect combination of cozy mountain charm and world-class Calico Rock fishing creates an unforgettable angling adventure.",
+    riverViewDescription: "From the warmth of Cabin 750's rustic interior, step outside to discover the pristine beauty of the White River - Arkansas's premier trout fishing destination. This perfect combination of cozy mountain charm and world-class Calico Rock fishing creates an unforgettable angling adventure.",
     whiteRiverViews: "White River Views",
     whiteRiverViewsDesc: "Experience the breathtaking beauty of Arkansas right outside your door",
     worldClassFishing: "World-Class Fishing",
@@ -226,7 +226,7 @@ export const translations: Record<string, Translations> = {
     easyAccess: "Easy Access",
     scenicDrive: "Scenic Drive",
     primeFishing: "Prime Fishing",
-    experienceUnit750: "Experience Unit 750",
+    experienceUnit750: "Experience Cabin 750",
     experienceUnit750Desc: "See what makes our White River retreat special",
     nearbyAttractions: "Nearby Attractions",
     calicoRockMuseum: "🏛️ Calico Rock Museum",
@@ -248,7 +248,7 @@ export const translations: Record<string, Translations> = {
     bookNowOnAirbnb: "Book Now on Airbnb",
     
     // Gallery Labels
-    propertyGalleryTitle: "Unit 750 Property Gallery",
+    propertyGalleryTitle: "Cabin 750 Property Gallery",
     propertyGallerySubtitle: "Explore our beautiful riverfront property and rustic accommodations",
     livingArea: "Living Area",
     hallway: "Hallway",
@@ -272,7 +272,7 @@ export const translations: Record<string, Translations> = {
     // Fishing Tours Section
     guidedFishingTours: "🎣 Guided Fishing Tours",
     whiteRiverFishingAdventures: "White River Fishing Adventures",
-    fishingToursDescription: "Experience world-class trout fishing on the legendary White River with our professional guides. From your doorstep at Unit 750, embark on unforgettable fishing adventures in pristine Arkansas waters.",
+    fishingToursDescription: "Experience world-class trout fishing on the legendary White River with our professional guides. From your doorstep at Cabin 750, embark on unforgettable fishing adventures in pristine Arkansas waters.",
     experienceTheThrill: "Experience the Thrill",
     experienceTheThrillDesc: "Professional guides • Premium equipment • Unforgettable memories",
     halfDayFishingTrip: "Half Day Fishing Trip",
@@ -305,7 +305,7 @@ export const translations: Record<string, Translations> = {
     // Activities Section
     activitiesTitle: "🚣 Activities",
     yourPrivateWaterfrontEscape: "Your Private Waterfront Escape",
-    activitiesIntro: "Step outside Unit 750 and you're just moments away from the crystal-clear waters of the White River, offering endless opportunities for relaxation and adventure.",
+    activitiesIntro: "Step outside Cabin 750 and you're just moments away from the crystal-clear waters of the White River, offering endless opportunities for relaxation and adventure.",
     troutFishing: "Trout Fishing",
     troutFishingDesc: "World-class trout fishing on the legendary White River",
     riverViewsActivity: "River Views",
@@ -794,7 +794,7 @@ export const translations: Record<string, Translations> = {
     // Activities Section
     activitiesTitle: "🚣 Aktivitäten",
     yourPrivateWaterfrontEscape: "Ihr privater Rückzugsort am Wasser",
-    activitiesIntro: "Verlassen Sie Unit 750 und Sie sind nur wenige Augenblicke von den kristallklaren Gewässern des White River entfernt, die endlose Möglichkeiten zur Entspannung und zum Abenteuer bieten.",
+    activitiesIntro: "Verlassen Sie Cabin 750 und Sie sind nur wenige Augenblicke von den kristallklaren Gewässern des White River entfernt, die endlose Möglichkeiten zur Entspannung und zum Abenteuer bieten.",
     troutFishing: "Forellenfischen",
     troutFishingDesc: "Weltklasse-Forellenfischen am legendären White River",
     riverViewsActivity: "Flussansichten",
