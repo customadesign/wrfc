@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { Menu, X } from 'lucide-react'
 import { useLanguage } from '../contexts/LanguageContext'
 import LanguageSelector from './LanguageSelector'
@@ -8,6 +8,7 @@ const Navigation: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const location = useLocation()
+  const navigate = useNavigate()
   const { t } = useLanguage()
 
   useEffect(() => {
@@ -21,8 +22,14 @@ const Navigation: React.FC = () => {
 
   const scrollToSection = (sectionId: string) => {
     if (location.pathname !== '/') {
-      // If not on home page, navigate to home first
-      window.location.href = `/#${sectionId}`
+      // If not on home page, navigate to home first then scroll
+      navigate('/')
+      setTimeout(() => {
+        const element = document.getElementById(sectionId)
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }
+      }, 100)
       return
     }
     
@@ -40,7 +47,7 @@ const Navigation: React.FC = () => {
     { label: t.riverViews, action: () => scrollToSection('river-views') },
     { label: t.location, action: () => scrollToSection('location') },
     { label: t.fishingTours, action: () => scrollToSection('fishing-tours') },
-    { label: t.fishingReports, action: () => window.location.href = '/fishing-reports' },
+    { label: t.fishingReports, action: () => { navigate('/fishing-reports'); setIsMobileMenuOpen(false) } },
     { label: t.activities, action: () => scrollToSection('activities') },
     { label: t.booking, action: () => scrollToSection('booking') },
     { label: t.contact, action: () => scrollToSection('contact') },
