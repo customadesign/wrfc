@@ -23,7 +23,7 @@ const Activities: React.FC = () => {
       id: 3,
       title: t.waterActivitiesTitle,
       description: t.waterActivitiesDescription,
-      image: "https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68ac027ed023bc0cff8f339e.webp",
+      image: "https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68acb3bae7e3ef055008e0cb.jpeg",
       category: t.waterSports
     },
     {
