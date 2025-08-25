@@ -7,7 +7,7 @@ import * as THREE from 'three'
 
 // Rainbow Trout 3D Model Component
 function RainbowTrout() {
-  const { scene } = useGLTF('/src/assets/Rainbow_trout_3D_0822202035_texture.glb')
+  const { scene } = useGLTF('/Rainbow_trout_3D_0822202035_texture.glb')
   const troutRef = useRef<THREE.Group>(null)
 
   useFrame((state) => {
