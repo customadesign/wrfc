@@ -137,6 +137,29 @@ export interface Translations {
   loadingReports: string;
   noReportsAvailable: string;
   viewAllReports: string;
+  
+  // Activities Section
+  activitiesTitle: string;
+  yourPrivateWaterfrontEscape: string;
+  activitiesIntro: string;
+  troutFishing: string;
+  troutFishingDesc: string;
+  riverViewsActivity: string;
+  riverViewsActivityDesc: string;
+  waterActivitiesTitle: string;
+  waterActivitiesDescription: string;
+  wildlifeWatchingTitle: string;
+  wildlifeWatchingDescription: string;
+  sunsetRelaxation: string;
+  sunsetRelaxationDesc: string;
+  photography: string;
+  photographyDesc: string;
+  fishing: string;
+  nature: string;
+  waterSports: string;
+  wildlife: string;
+  relaxation: string;
+  photographyCategory: string;
 }
 
 export const translations: Record<string, Translations> = {
@@ -278,6 +301,29 @@ export const translations: Record<string, Translations> = {
     loadingReports: "Loading fishing reports...",
     noReportsAvailable: "No fishing reports available at this time.",
     viewAllReports: "View All Reports",
+    
+    // Activities Section
+    activitiesTitle: "🚣 Activities",
+    yourPrivateWaterfrontEscape: "Your Private Waterfront Escape",
+    activitiesIntro: "Step outside Unit 750 and you're just moments away from the crystal-clear waters of the White River, offering endless opportunities for relaxation and adventure.",
+    troutFishing: "Trout Fishing",
+    troutFishingDesc: "World-class trout fishing on the legendary White River",
+    riverViewsActivity: "River Views",
+    riverViewsActivityDesc: "Breathtaking views of the limestone cliffs and crystal waters",
+    waterActivitiesTitle: "Water Activities",
+    waterActivitiesDescription: "Kayaking, canoeing, and swimming in pristine waters",
+    wildlifeWatchingTitle: "Wildlife Watching",
+    wildlifeWatchingDescription: "Observe native Arkansas wildlife in their natural habitat",
+    sunsetRelaxation: "Sunset Relaxation",
+    sunsetRelaxationDesc: "Unwind with stunning sunset views over the White River",
+    photography: "Photography",
+    photographyDesc: "Capture the natural beauty of Calico Rock and the river",
+    fishing: "Fishing",
+    nature: "Nature",
+    waterSports: "Water Sports",
+    wildlife: "Wildlife",
+    relaxation: "Relaxation",
+    photographyCategory: "Photography",
   },
   
   es: {
@@ -418,6 +464,29 @@ export const translations: Record<string, Translations> = {
     loadingReports: "Cargando reportes de pesca...",
     noReportsAvailable: "No hay reportes de pesca disponibles en este momento.",
     viewAllReports: "Ver Todos los Reportes",
+    
+    // Activities Section
+    activitiesTitle: "🚣 Actividades",
+    yourPrivateWaterfrontEscape: "Tu Escape Privado Frente al Agua",
+    activitiesIntro: "Sal de la Unidad 750 y estarás a solo momentos de las aguas cristalinas del Río White, ofreciendo infinitas oportunidades para la relajación y la aventura.",
+    troutFishing: "Pesca de Trucha",
+    troutFishingDesc: "Pesca de trucha de clase mundial en el legendario Río White",
+    riverViewsActivity: "Vistas del Río",
+    riverViewsActivityDesc: "Vistas impresionantes de los acantilados de piedra caliza y aguas cristalinas",
+    waterActivitiesTitle: "Actividades Acuáticas",
+    waterActivitiesDescription: "Kayak, canotaje y natación en aguas prístinas",
+    wildlifeWatchingTitle: "Observación de Vida Silvestre",
+    wildlifeWatchingDescription: "Observa la vida silvestre nativa de Arkansas en su hábitat natural",
+    sunsetRelaxation: "Relajación al Atardecer",
+    sunsetRelaxationDesc: "Relájate con impresionantes vistas del atardecer sobre el Río White",
+    photography: "Fotografía",
+    photographyDesc: "Captura la belleza natural de Calico Rock y el río",
+    fishing: "Pesca",
+    nature: "Naturaleza",
+    waterSports: "Deportes Acuáticos",
+    wildlife: "Vida Silvestre",
+    relaxation: "Relajación",
+    photographyCategory: "Fotografía",
   },
   
   ja: {
@@ -558,6 +627,29 @@ export const translations: Record<string, Translations> = {
     loadingReports: "釣りレポートを読み込み中...",
     noReportsAvailable: "現在、釣りレポートはありません。",
     viewAllReports: "すべてのレポートを表示",
+    
+    // Activities Section  
+    activitiesTitle: "🚣 アクティビティ",
+    yourPrivateWaterfrontEscape: "あなたのプライベートウォーターフロントエスケープ",
+    activitiesIntro: "ユニット750を出ると、ホワイトリバーの透明な水まですぐ、リラクゼーションと冒険の無限の機会を提供します。",
+    troutFishing: "マス釣り",
+    troutFishingDesc: "伝説のホワイトリバーでの世界クラスのマス釣り",
+    riverViewsActivity: "川の景色",
+    riverViewsActivityDesc: "石灰岩の崖と透明な水の息をのむような景色",
+    waterActivitiesTitle: "水上アクティビティ",
+    waterActivitiesDescription: "カヤック、カヌー、原始的な水での水泳",
+    wildlifeWatchingTitle: "野生動物観察",
+    wildlifeWatchingDescription: "アーカンソー原産の野生動物を自然の生息地で観察",
+    sunsetRelaxation: "夕日のリラクゼーション",
+    sunsetRelaxationDesc: "ホワイトリバーの素晴らしい夕日の景色でリラックス",
+    photography: "写真撮影",
+    photographyDesc: "カリコロックと川の自然の美しさを撮影",
+    fishing: "釣り",
+    nature: "自然",
+    waterSports: "ウォータースポーツ",
+    wildlife: "野生動物",
+    relaxation: "リラクゼーション",
+    photographyCategory: "写真撮影",
   },
   
   de: {
@@ -698,5 +790,28 @@ export const translations: Record<string, Translations> = {
     loadingReports: "Angelberichte werden geladen...",
     noReportsAvailable: "Derzeit sind keine Angelberichte verfügbar.",
     viewAllReports: "Alle Berichte anzeigen",
+    
+    // Activities Section
+    activitiesTitle: "🚣 Aktivitäten",
+    yourPrivateWaterfrontEscape: "Ihr privater Rückzugsort am Wasser",
+    activitiesIntro: "Verlassen Sie Unit 750 und Sie sind nur wenige Augenblicke von den kristallklaren Gewässern des White River entfernt, die endlose Möglichkeiten zur Entspannung und zum Abenteuer bieten.",
+    troutFishing: "Forellenfischen",
+    troutFishingDesc: "Weltklasse-Forellenfischen am legendären White River",
+    riverViewsActivity: "Flussansichten",
+    riverViewsActivityDesc: "Atemberaubende Aussicht auf die Kalksteinfelsen und kristallklaren Gewässer",
+    waterActivitiesTitle: "Wasseraktivitäten",
+    waterActivitiesDescription: "Kajakfahren, Kanufahren und Schwimmen in unberührten Gewässern",
+    wildlifeWatchingTitle: "Tierbeobachtung",
+    wildlifeWatchingDescription: "Beobachten Sie die einheimische Tierwelt von Arkansas in ihrem natürlichen Lebensraum",
+    sunsetRelaxation: "Sonnenuntergang Entspannung",
+    sunsetRelaxationDesc: "Entspannen Sie sich mit atemberaubenden Sonnenuntergangsblicken über den White River",
+    photography: "Fotografie",
+    photographyDesc: "Erfassen Sie die natürliche Schönheit von Calico Rock und dem Fluss",
+    fishing: "Angeln",
+    nature: "Natur",
+    waterSports: "Wassersport",
+    wildlife: "Tierwelt",
+    relaxation: "Entspannung",
+    photographyCategory: "Fotografie",
   },
 };
