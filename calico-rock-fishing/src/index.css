@@ -4201,3 +4201,56 @@ body {
     font-size: 1.1rem;
   }
 }
+
+/* Video Thumbnail Styles for Mobile */
+video[controls] {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: var(--limestone-gray);
+}
+
+video[poster] {
+  cursor: pointer;
+}
+
+/* Ensure video thumbnails show on mobile */
+@media (max-width: 768px) {
+  video[controls] {
+    /* Force poster to display on mobile */
+    -webkit-appearance: none;
+    appearance: none;
+  }
+  
+  video[controls]::-webkit-media-controls-panel {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+  }
+  
+  /* Improve video container on mobile */
+  video[controls] {
+    min-height: 350px;
+    max-height: 500px;
+    border-radius: 10px;
+  }
+}
+
+/* iOS Safari specific fixes for video thumbnails */
+@supports (-webkit-touch-callout: none) {
+  video[controls] {
+    -webkit-playsinline: true;
+    playsinline: true;
+  }
+  
+  video[poster] {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+/* Android Chrome specific fixes */
+@media (max-width: 768px) and (hover: none) {
+  video[controls] {
+    touch-action: manipulation;
+  }
+}

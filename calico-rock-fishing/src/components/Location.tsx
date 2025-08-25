@@ -152,7 +152,8 @@ const Location: React.FC = () => {
                 <video
                   controls
                   style={{ width: '100%', height: '400px', objectFit: 'cover' }}
-                  poster=""
+                  poster="https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68abed0e6979a02339cccafb.jpeg"
+                  preload="metadata"
                 >
                   <source src="https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68abe851a7e598b50237c381.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
@@ -169,7 +170,8 @@ const Location: React.FC = () => {
                 <video
                   controls
                   style={{ width: '100%', height: '400px', objectFit: 'cover' }}
-                  poster=""
+                  poster="https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68abed0ea7e598e6c9389cf8.jpeg"
+                  preload="metadata"
                 >
                   <source src="https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68abe8519bcb7b61f933cb9c.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
@@ -186,7 +188,8 @@ const Location: React.FC = () => {
                 <video
                   controls
                   style={{ width: '100%', height: '400px', objectFit: 'cover' }}
-                  poster=""
+                  poster="https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68a8db1bbc73b0061a5ee8c4.jpeg"
+                  preload="metadata"
                 >
                   <source src="https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68abe8516979a0231ccbfe0b.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
@@ -203,7 +206,8 @@ const Location: React.FC = () => {
                 <video
                   controls
                   style={{ width: '100%', height: '400px', objectFit: 'cover' }}
-                  poster=""
+                  poster="/fish-video.webp"
+                  preload="metadata"
                 >
                   <source src="https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68abe8519bcb7b61c033cb98.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
