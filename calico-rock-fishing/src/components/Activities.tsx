@@ -80,33 +80,7 @@ const Activities: React.FC = () => {
             ))}
           </div>
           
-          <div className="activity-features">
-            <div className="container">
-              <h3>Featured Activities & Amenities</h3>
-              <div className="features-grid">
-                <div className="feature">
-                  <span className="feature-icon">🎣</span>
-                  <h5>{t.worldClassFishing}</h5>
-                  <p>{t.worldClassFishingDesc}</p>
-                </div>
-                <div className="feature">
-                  <span className="feature-icon">🚣</span>
-                  <h5>{t.waterActivities}</h5>
-                  <p>{t.waterActivitiesDesc}</p>
-                </div>
-                <div className="feature">
-                  <span className="feature-icon">🌅</span>
-                  <h5>{t.sunriseViews}</h5>
-                  <p>{t.sunriseViewsDesc}</p>
-                </div>
-                <div className="feature">
-                  <span className="feature-icon">🦅</span>
-                  <h5>{t.wildlifeWatching}</h5>
-                  <p>{t.wildlifeWatchingDesc}</p>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
