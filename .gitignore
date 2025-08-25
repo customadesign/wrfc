@@ -1,0 +1,30 @@
+# Large media files
+calico-rock-fishing/public/fish-video.webp
+openart-video_e8777cc8_1755903699410.webp
+*.mp4
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
