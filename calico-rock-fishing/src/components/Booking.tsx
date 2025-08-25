@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Calendar, CalendarDays, Users, DollarSign, Clock, CheckCircle } from 'lucide-react'
+import { Calendar, Users, DollarSign, Clock, CheckCircle } from 'lucide-react'
 
 interface BookingData {
   checkIn: Date | null
@@ -38,7 +38,7 @@ const Booking: React.FC = () => {
     const year = date.getFullYear()
     const month = date.getMonth()
     const firstDay = new Date(year, month, 1)
-    const lastDay = new Date(year, month + 1, 0)
+    // const lastDay = new Date(year, month + 1, 0)
     const startDate = new Date(firstDay)
     startDate.setDate(startDate.getDate() - firstDay.getDay())
     

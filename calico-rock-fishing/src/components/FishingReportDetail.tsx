@@ -1,7 +1,6 @@
 import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { Calendar, Fish, TrendingUp, MapPin, Clock, ArrowLeft, ExternalLink } from 'lucide-react'
-import { useLanguage } from '../contexts/LanguageContext'
 
 interface FishingReport {
   id: string
@@ -16,7 +15,6 @@ interface FishingReport {
 
 const FishingReportDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>()
-  const { t } = useLanguage()
 
   // Mock data - same as in FishingReportsPage
   const mockReports: FishingReport[] = [

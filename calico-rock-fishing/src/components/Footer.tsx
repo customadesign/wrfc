@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useLanguage } from '../contexts/LanguageContext'
 
 const Footer: React.FC = () => {
-  const { t } = useLanguage()
   const currentYear = new Date().getFullYear()
 
   return (

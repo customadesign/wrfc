@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useLanguage } from '../contexts/LanguageContext'
 
 const AirbnbPolicy: React.FC = () => {
-  const { t } = useLanguage()
 
   return (
     <div className="legal-page">
