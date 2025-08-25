@@ -70,13 +70,18 @@ const FishingTours: React.FC = () => {
               <h3 className="video-title">{t.experienceTheThrill}</h3>
               <p className="video-subtitle">{t.experienceTheThrillDesc}</p>
             </div>
-            <img
-              src="/fish-video.webp"
-              alt="Rainbow trout swimming in crystal clear White River waters near Calico Rock Arkansas fishing resort"
+            <video
+              src="https://storage.googleapis.com/msgsndr/c55gLK8swNL0cpUkhTnc/media/68ac841b45eaf7b89feb9e75.mp4"
               className="fish-video-image"
-              role="img"
+              autoPlay
+              loop
+              muted
+              playsInline
+              poster="/fish-video.webp"
               aria-label="Rainbow trout swimming in crystal clear White River waters near Calico Rock Arkansas fishing resort"
-            />
+            >
+              Your browser does not support the video tag.
+            </video>
           </div>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', marginTop: '3rem' }}>
